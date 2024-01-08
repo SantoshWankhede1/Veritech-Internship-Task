@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #22eef9;
+    color: #100101;
+    text-align: center;
+    padding: 1em;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.member {
+    /* text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; */
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #44f314;
+    border-radius: 50%; /* Make it round */
+    overflow: hidden; /* Ensure the content doesn't overflow */
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #f0f0f0; /* Light gray background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Large Size: 2 members in a row */
+.large {
+    width: 600px;
+}
+
+/* Intermediate Size: 3 members in a row */
+.intermediate {
+    width: 400px;
+}
+
+/* Small Size: 5 members in a row */
+.small {
+    width: 250px;
+}
+.member img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    border-radius: 50%; /* Ensure images are also round */
+}
+
+footer {
+    background-color: #22eef9;
+    color: #0f0101;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
